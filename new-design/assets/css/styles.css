@@ -1,0 +1,108 @@
+body {
+    font-family: 'Muli', sans-serif;
+}
+header .logo {
+}
+header .expand-account {
+    width: 10%;
+    float: left;
+    padding: 23px 0;
+}
+
+header .col-md-2 {
+    padding: 0;
+}
+
+header button.btn.btn-primary {
+    width: 168px;
+    height: 52px;
+    margin: 10px 0;
+    float: right;
+    margin-right: 56px;
+}
+
+header .account-info {
+    font-size: 15px;
+    padding: 16px 0;
+    width: 90%;
+    float: left;
+}
+
+header .account-info .balance label {
+    color: #a3a3a3;
+    font-size: 12px;
+}
+
+header .account-info .balance span {
+    color: #04a7e1;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .cart {
+    color: #fbdf09;
+    text-align: center;
+    font-size: 30px;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+
+header {
+    height: 72px;
+    box-shadow: 0 0.5px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+header div.col-md-1 {
+    padding: 0 7px;
+}
+.copy-rights {
+    color: #f4f7f8;
+    font-size: 12px;
+}
+.btn.btn-primary{
+    background-color: #fadf06;
+    color: #2d2d2d;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+}
+
+
+footer{
+    height: 332px;
+    background-color: #3b3d40;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+footer .social {
+    width: 120px;
+    left: 50%;
+    position: relative;
+    margin-left: -60px;
+    height: 51px;
+    margin-top: 50px;
+}
+footer .logo {
+    height: 130px;
+    padding-top: 66px;
+}
+
+footer button.btn.btn-primary {
+    width: 100%;
+    height: 53px;
+}
+
+footer .social-item {
+    color: #fbdf09;
+    float: left;
+    width: 40px;
+    font-size: 22px;
+}
