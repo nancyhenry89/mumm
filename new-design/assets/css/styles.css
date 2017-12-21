@@ -477,3 +477,95 @@ footer .social-item {
     position: relative;
     margin-top: 11px;
 }
+.bread-crumb {
+    float: left;
+    width: 100%;
+    margin: 17px 0;
+}
+
+.bread-crumb a {
+    color: #2db2e5;
+    margin-right: 12px;
+}
+
+.bread-crumb i {
+    margin-right: 12px;
+}
+.fav-item {
+    padding: 18px 0;
+    margin-bottom: 20px;
+}
+.favorites .dish-title {
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+.favorites .rating {
+    float: left;
+    margin-right: 8px;
+}
+
+.favorites .dish-owner {
+    float: left;
+    font-size: 12px;
+    color: #9a9a9b;
+}
+
+.favorites .sep {
+    float: left;
+    font-size: 12px;
+    color: #9a9a9b;
+    margin-right: 8px;
+}
+
+.favorites .rating-number {
+    font-size: 12px;
+    color: #9a9a9b;
+    float: left;
+}
+.favorites .rating-stars {
+    color: #fae000;
+    float: left;
+    margin-right: 28px;
+}
+.container.fav-content {
+    width: 80%;
+    float: left;
+}
+.favorites .currency {
+    text-align: center;
+    font-size: 12px;
+}
+
+.favorites .price {
+    text-align: center;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.favorites .dish-desc {
+    font-size: 12px;
+    color: #9e9e9e;
+    line-height: 20px;
+    margin-top: 13px;
+}
+
+.favorites .dish-tags .tag-item {
+    color: #949494;
+    font-size: 12px;
+    float: left;
+    width: auto;
+    border: 1px solid;
+    height: 27px;
+    border-radius: 20px;
+    line-height: 25px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.favorites .dish-tags {
+    margin-top: 12px;
+}
+.fav-img-cont {
+    height: 200px;
+}
