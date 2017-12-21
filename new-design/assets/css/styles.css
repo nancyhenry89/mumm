@@ -569,3 +569,41 @@ footer .social-item {
 .fav-img-cont {
     height: 200px;
 }
+.sign-up-banner img {
+    width: 100%;
+}
+
+.sign-up h3 {
+    position: absolute;
+    bottom: 28px;
+    color: #fff;
+    font-size: 34px;
+    left: 41px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.sign-up h3 div {
+    margin-bottom: 5px;
+}
+
+.sign-up-banner {
+    position: relative;
+}
+
+.container.sign-up {
+    width: 68%;
+    margin-top: 41px;
+}
+.sign-up .form i {
+    font-size: 20px;
+    position: absolute;
+    right: 33px;
+    top: 62px;
+    color: #02a7e1;
+}
+
+.sign-up h4 {
+    font-size: 28px;
+    margin-top: 38px;
+}
