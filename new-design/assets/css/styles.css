@@ -4,7 +4,9 @@ body {
 }
 header .logo {
 }
-
+.full-width{
+    width: 100%!important;
+}
 .my-account-list:after, .my-account-list:before {
 	bottom: 100%;
 	left: 90%;
@@ -142,15 +144,19 @@ header div.col-md-1 {
     font-weight: bold;
     border: 0;
     outline: none;
+    transition: all .5s ease;
+}
+
+.btn.btn-primary:hover {
+    background: #e4ce09;
 }
 
 
 footer{
     height: 332px;
     background-color: #3b3d40;
-    /* position: absolute; */
     width: 100%;
-    /* bottom: 0; */
+    margin-top: 95px;
 }
 footer .social {
     width: 120px;
@@ -340,4 +346,134 @@ footer .social-item {
     z-index: 9;
     width: 20px;
     height: 20px;
+}
+.container.login {
+    width: 50%;
+    margin-top: 44px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.login-form h2 {
+    margin: 36px 0;
+}
+
+.login-form .form {
+    text-align: left;
+    width: 55%;
+    margin: auto;
+    margin-top: 27px;
+    font-size: 15px;
+}
+.login-form .contact {
+    color: #23aee4;
+    text-decoration: underline;
+}
+.login-form .forgot {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    color: #3b3a34;
+    margin-top: 10px;
+}
+.landingBG{
+    background:url('../img/landingBG.png');
+    height: 740px;
+    background-size: cover;
+}
+.container-fluid.landing {
+    padding: 0;
+}
+.landing .banner {
+    margin-top: 206px;
+}
+
+.landing .banner h2 {
+    font-size: 39px;
+    font-weight: bold;
+    margin: 0;
+}
+.landing .banner .btn.btn-primary {
+    width: 162px;
+    margin-top: 36px;
+    height: 48px;
+    margin-bottom: 21px;
+}
+
+.landing .banner a.link {
+    font-size: 17px;
+    color: #231f1f;
+    text-decoration: underline;
+}
+.landing .about h3 {
+    font-size: 34px;
+}
+
+.landing .about {
+    margin-top: 74px;
+    width: 80%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.landing .about p {
+    font-size: 18px;
+    margin-top: 37px;
+    margin-bottom: 90px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.landing .about .steps {
+    margin-top: 30px;
+}
+
+.landing .about .steps img.imgstep-img {
+    width: 100px;
+}
+
+.landing .about .steps .step-title {
+    font-size: 19px;
+    font-weight: bold;
+    width: 73%;
+    margin: auto;
+    margin-top: 21px;
+}
+.landing .container.info {
+    margin-top: 79px;
+    width: 60%;
+    font-size: 17px;
+    color: #2d2d2d;
+    line-height: 27px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.landing .info h4{font-size: 26px;}
+.sp{color:#02a7e1;font-weight: bold;}
+
+.info span.sp {
+    font-size: 24px;
+}
+.steps-line>div>div {
+    width: 28px;
+    margin: auto;
+    background: #2d2d2d;
+    color: #fff;
+    border-radius: 50%;
+    height: 28px;
+    line-height: 28px;
+}
+
+.steps-line:before {
+    content: "";
+    width: 65%;
+    height: 1px;
+    background: #e3e3e3;
+    position: absolute;
+    left: 50%;
+    margin-left: -32.5%;
+    top: 13px;
+}
+
+.steps-line {
+    position: relative;
+    margin-top: 11px;
 }
