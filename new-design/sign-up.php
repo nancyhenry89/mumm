@@ -12,7 +12,7 @@
             </h3>
           </div>
         </div>
-        <div class="col-md-6 sign-up-content">
+        <div class="col-md-5 sign-up-content">
           <h4 class="sp">Welcome to mumm!</h4>
           <div>Join and enjoy your Mumm</div>
           <div class="row form">
@@ -49,4 +49,27 @@
         </div>
       </div>
     </div>
+    <div class="container-fluid plates">
+      <div class="plate plate1">
+        <img src="assets/img/plate1.png">
+      </div>
+      <div class="plate plate2">
+        <img src="assets/img/plate2.png">
+      </div>
+        <div class="plate plate3">
+        <img src="assets/img/plate3.png">
+      </div>
+        <div class="plate plate4">
+        <img src="assets/img/plate4.png">
+      </div>
+    <div class="container get-started text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <h5>Love to cook?</h5>
+          <div>Join Mumm as a Cook Now!</div>
+          <button class="btn btn-primary">GET STARTED</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <?php require_once('footer.php');?>

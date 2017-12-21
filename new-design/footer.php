@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="logo">
-                    <img src="assets/img/logo.png" alt="logo"/>
+                    <img src="assets/img/logo-white.png" alt="logo"/>
                 </div>
             </div>
         </div>

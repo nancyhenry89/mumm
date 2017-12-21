@@ -171,6 +171,10 @@ footer .logo {
     padding-top: 66px;
 }
 
+footer .logo img {
+    width: 170px;
+}
+
 footer button.btn.btn-primary {
     width: 100%;
     height: 53px;
@@ -592,7 +596,7 @@ footer .social-item {
 }
 
 .container.sign-up {
-    width: 68%;
+    width: 65%;
     margin-top: 41px;
 }
 .sign-up .form i {
@@ -606,4 +610,68 @@ footer .social-item {
 .sign-up h4 {
     font-size: 28px;
     margin-top: 38px;
+}
+.container.get-started {
+    width: 65%;
+    margin-top: 304px;
+    font-size: 26px;
+}
+.get-started h5 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.get-started .btn {
+    width: 468px;
+    margin-top: 54px;
+    height: 67px;
+    font-size: 20px;
+}
+
+
+
+
+
+.plate.plate1,.plate.plate2 {
+    position: absolute;
+    left: 0;
+}
+
+.plate.plate1 {
+    top: 86%;
+    z-index: 2;
+}
+
+.plate.plate2 {
+    top: 40%;
+}
+.plate.plate3,.plate.plate4 {
+    position: absolute;
+    right: 0;
+}
+
+.plate.plate4 {
+    top: 50%;
+}
+
+.plate.plate3 {
+    top: 90%;
+    z-index: 2;
+}
+.plate.plate3 img{
+    width: 140px;
+}
+.plate.plate4 img{
+    width: 250px;
+}
+.plate.plate2 img {
+    width: 250px;
+}
+
+.plate.plate1 img {
+    width: 140px;
+}
+.container-fluid.plates {
+    position: relative;
 }
