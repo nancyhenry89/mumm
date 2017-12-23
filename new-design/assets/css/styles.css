@@ -762,6 +762,7 @@ footer .social-item {
 .order-date .time {
     font-size: 11px;
     color: #3b3d40;
+    text-align: center;
 }
 
 .has-order .order-date .time {}
@@ -798,4 +799,20 @@ footer .social-item {
 }
 .order-item {
     margin-bottom: 60px;
+}
+#past .dish-price {
+    font-weight: bold;
+    margin-top: 14px;
+}
+#past .fav-img-cont {
+    height: 120px;
+}
+
+#past .order-detail>.row {
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+#past .order-detail>.row:last-of-type {
+    border: none;
 }

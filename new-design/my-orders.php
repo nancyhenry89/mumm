@@ -251,6 +251,162 @@
                       </div>
                     </div>
                     <div id="Past" class="tab-pane fade">
+                      <div class="row order-item">
+                        <div class="col-md-1 order-date">
+                          <div class="date">
+                            <div class="number">3</div>
+                            <div class="month">August</div>
+                          </div>
+                          <div class="day">Thursday</div>
+                          <div class="time">3 PM - 4 PM</div>
+                        </div>
+                        <div class="col-md-9 order-detail">
+                          <div class="row">
+                            <div class="col-md-2 fav-img-cont">
+                              <img class="fav-img" src="" alt="Dish Image"/>
+                            </div>
+                            <div class="col-md-10">
+                              <div class="row">
+                                <div class="col-md-10">
+                                  <div class="dish-title">Spaghetti and Meatballs</div>
+                                  <div class="rating">
+                                    <div class="rating-stars">
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star-half" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="rating-number">4.5</div>
+                                  </div>
+                                  <div class="sep">|</div>
+                                  <div class="dish-owner">
+                                      by Manal’s Kitchen
+                                  </div>
+                                </div>
+                                <div class="col-md-2">
+                                  <div class="col-md-12 dish-price">
+                                    <div class="currency">EGP</div>
+                                    <div class="price">95</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row dish-tags">
+                                <div class="col-md-12">
+                                  <div class="tag-item">
+                                    <span class="tag-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                                    <span class="tag-text">Popular</span>
+                                  </div>
+                                  <div class="tag-item">
+                                    <span class="tag-icon"><i class="fa fa-tree" aria-hidden="true"></i></span>
+                                    <span class="tag-text">Healthy</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-2 fav-img-cont">
+                              <img class="fav-img" src="" alt="Dish Image"/>
+                            </div>
+                            <div class="col-md-10">
+                              <div class="row">
+                                <div class="col-md-10">
+                                  <div class="dish-title">Spaghetti and Meatballs</div>
+                                  <div class="rating">
+                                    <div class="rating-stars">
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star-half" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="rating-number">4.5</div>
+                                  </div>
+                                  <div class="sep">|</div>
+                                  <div class="dish-owner">
+                                      by Manal’s Kitchen
+                                  </div>
+                                </div>
+                                <div class="col-md-2">
+                                  <div class="col-md-12 dish-price">
+                                    <div class="currency">EGP</div>
+                                    <div class="price">95</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row dish-tags">
+                                <div class="col-md-12">
+                                  <div class="tag-item">
+                                    <span class="tag-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                                    <span class="tag-text">Popular</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-2 order-actions">
+                          <button class="btn btn-primary full-width"><i class="fa fa-repeat" aria-hidden="true"></i>Re-Order</button>
+                        </div>
+                      </div>
+
+                      <div class="row order-item">
+                        <div class="col-md-1 order-date">
+                          <div class="date">
+                            <div class="number">3</div>
+                            <div class="month">August</div>
+                          </div>
+                          <div class="day">Thursday</div>
+                          <div class="time">3 PM - 4 PM</div>
+                        </div>
+                        <div class="col-md-9 order-detail">
+                          <div class="row">
+                            <div class="col-md-3 fav-img-cont">
+                              <img class="fav-img" src="" alt="Dish Image"/>
+                            </div>
+                            <div class="col-md-9">
+                              <div class="row">
+                                <div class="col-md-10">
+                                  <div class="dish-title">Spaghetti and Meatballs</div>
+                                  <div class="rating">
+                                    <div class="rating-stars">
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star-half" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="rating-number">4.5</div>
+                                  </div>
+                                  <div class="sep">|</div>
+                                  <div class="dish-owner">
+                                      by Manal’s Kitchen
+                                  </div>
+                                </div>
+                                <div class="col-md-2">
+                                  <div class="col-md-12 dish-price">
+                                    <div class="currency">EGP</div>
+                                    <div class="price">95</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row dish-tags">
+                                <div class="col-md-12">
+                                  <div class="tag-item">
+                                    <span class="tag-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                                    <span class="tag-text">Popular</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-2 order-actions">
+                          <button class="btn btn-primary full-width"><i class="fa fa-repeat" aria-hidden="true"></i>Re-Order</button>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
