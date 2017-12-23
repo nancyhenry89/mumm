@@ -9,7 +9,7 @@ header .logo {
 }
 .my-account-list:after, .my-account-list:before {
 	bottom: 100%;
-	left: 90%;
+	left: 87%;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -32,28 +32,80 @@ header .logo {
 	margin-left: -12px;
 }
 header .my-account-list ul {
-    padding: 0 10px;
+    padding: 0;
     list-style: none;
     height: auto;
+    margin-bottom: 0;
 }
 
 header .my-account-list {
     width: 218px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
     border: solid 0.5px #fadf06;
-    height: 178px;
-    margin-top: 13px;
+    margin-top: 16px;
     background: #fff;
     z-index: 9;
     position: absolute;
     float: left;
-    margin-left: -178px;
+    margin-left: -172px;
+}
+.cart-details {
+    width: 298px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border: solid 0.5px #fadf06;
+    margin-top: 16px;
+    background: #fff;
+    z-index: 9;
+    position: absolute;
+    float: left;
+    margin-left: -216px;
+    margin-top: 5px;
 }
 
+.cart-details:after, .cart-details:before {
+	bottom: 100%;
+	left: 87%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.cart-details:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #ffffff;
+	border-width: 11px;
+	margin-left: -11px;
+}
+.cart-details:before {
+	content:"";
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #fae000;
+	border-width: 12px;
+	margin-left: -12px;
+}
+header .expand-cart .btn[aria-expanded="true"] {background: #fae000;}
+
+header .expand-cart .btn[aria-expanded="true"] i {
+    color: #1aa9e2;
+}
+
+header .expand-cart .btn[aria-expanded="true"] span {color: #1aa9e2;background: #fff;}
+
+.expand-cart {
+    width: 100%;
+}
 header .my-account-list li {
-    padding: 10px 0;
+    padding: 10px;
     border-bottom: 1px solid #e6e6e6;
     /* height: 45px; */
+    transition: all .5s ease;
+}
+
+header .my-account-list li:hover {
+    background: #fae000;
 }
 
 header .my-account-list li:last-of-type {
@@ -67,6 +119,10 @@ header .my-account-list li a {
     font-size: 15px;
 }
 
+header .my-account-list li a:hover {
+    text-decoration: none;
+}
+
 header .expand-account {
     width: 10%;
     float: left;
@@ -74,6 +130,12 @@ header .expand-account {
     margin-left: -20px;
 }
 
+header .expand-account .btn:focus {
+    box-shadow: none;
+}
+header .expand-account .btn[aria-expanded="true"] i:before {
+    content: "\f106";
+}
 header .expand-account .btn:focus {
     outline: none;
 }
@@ -85,8 +147,8 @@ header .col-md-2 {
 
 header button.btn.btn-primary {
     width: 160px;
-    height: 50px;
-    margin: 10px 0;
+    height: 43px;
+    margin: 16px 0;
     float: right;
     margin-right: 56px;
 }
@@ -112,24 +174,47 @@ header .cart {
     color: #fbdf09;
     text-align: center;
     font-size: 30px;
-    -moz-transform: scale(-1, 1);
-    -webkit-transform: scale(-1, 1);
-    -o-transform: scale(-1, 1);
-    -ms-transform: scale(-1, 1);
-    transform: scale(-1, 1);
     width: 100%;
     height: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     border-left: 1px solid #e6e6e6;
     border-right: 1px solid #e6e6e6;
 }
+.cart .btn {
+    background: transparent;
+    transition: all .5s ease;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
 
+.cart .btn:focus {
+    outline: none;
+}
+
+.cart .btn:hover {
+    color: #1aa9e2;
+}
+header .cart i{
+    font-size: 31px;
+    margin-top: 12px;
+}
 header {
     height: 72px;
     box-shadow: 0 0.5px 2px 0 rgba(0, 0, 0, 0.2);
     background: #fff;
 }
-
+.cart .cart-count {
+    font-size: 13px;
+    position: absolute;
+    left: 22px;
+    background: #000000;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 17px;
+}
 header div.col-md-1 {
     padding: 0 7px;
 }

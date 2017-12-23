@@ -41,7 +41,17 @@
       </div>
       <div class="col-md-1">
         <div class="cart">
-          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <div class="expand-cart">
+              <button type="button" class="btn" data-toggle="collapse" data-target="#cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span class="cart-count">2</span>
+              </button>
+            <div class="cart-details collapse" id="cart">
+              <div class="cart-title">Your Cart</div>
+              <div class="cart-date">Wednesday July 12, 2017</div>
+              <div class="cart-item"></div>
+          </div>
+          </div>
         </div>
       </div>
       </div>
