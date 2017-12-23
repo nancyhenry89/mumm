@@ -499,35 +499,35 @@ footer .social-item {
     padding: 18px 0;
     margin-bottom: 20px;
 }
-.favorites .dish-title {
+.dish-title {
     font-size: 17px;
     margin-bottom: 6px;
 }
 
-.favorites .rating {
+.rating {
     float: left;
     margin-right: 8px;
 }
 
-.favorites .dish-owner {
+.dish-owner {
     float: left;
     font-size: 12px;
     color: #9a9a9b;
 }
 
-.favorites .sep {
+.sep {
     float: left;
     font-size: 12px;
     color: #9a9a9b;
     margin-right: 8px;
 }
 
-.favorites .rating-number {
+.rating-number {
     font-size: 12px;
     color: #9a9a9b;
     float: left;
 }
-.favorites .rating-stars {
+.rating-stars {
     color: #fae000;
     float: left;
     margin-right: 28px;
@@ -536,25 +536,29 @@ footer .social-item {
     width: 80%;
     float: left;
 }
-.favorites .currency {
+.currency {
     text-align: center;
     font-size: 12px;
 }
 
-.favorites .price {
+.price {
     text-align: center;
     font-size: 25px;
     margin-top: -5px;
 }
 
-.favorites .dish-desc {
+.dish-desc {
     font-size: 12px;
     color: #9e9e9e;
     line-height: 20px;
     margin-top: 13px;
 }
 
-.favorites .dish-tags .tag-item {
+.order-detail .dish-desc {
+    /* margin-right: 80px; */
+}
+
+.dish-tags .tag-item {
     color: #949494;
     font-size: 12px;
     float: left;
@@ -675,21 +679,21 @@ footer .social-item {
 .container-fluid.plates {
     position: relative;
 }
-.faq-content .nav-tabs>li.active>a,.faq-content .nav-tabs>li.active>a:focus,.faq-content .nav-tabs>li.active>a:hover{
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{
     color: #221f1f;
     border: 0;
     background: transparent;
     border-bottom: 2px solid #fae000;
 }
 
-.faq-content .nav-tabs>li>a {
+.nav-tabs>li>a {
     color: #221f1f;
     font-family: 'Titillium Web', sans-serif;
     padding: 0;
     margin-right: 25px;
     font-size: 21px;
 }
-.faq-content .nav-tabs {
+.nav-tabs {
     border: 0;
 }
 .faq-item .question {
@@ -725,3 +729,73 @@ footer .social-item {
 }
 
 .faq .contact .btn {margin-top: 29px;width: 165px;height: 47px;}
+.orders-header {
+}
+
+.orders-content {
+    margin-top: 30px;
+}
+
+.order-date .date {
+    background: #3b3d40;
+    color: #fff;
+    height: 67px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.has-order .order-date .date {
+    background: #04a7e1;
+}
+
+.order-date .day {
+    color: #3b3d40;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 12px;
+}
+
+.has-order .order-date .day,.has-order .order-date .time {
+    color: #04a7e1;
+}
+
+.order-date .time {
+    font-size: 11px;
+    color: #3b3d40;
+}
+
+.has-order .order-date .time {}
+
+.order-date .date .number {
+    font-size: 30px;
+    padding-top: 1px;
+}
+.has-order.order-actions .btn {
+    margin-top: 58px;
+}
+
+.order-actions .btn {
+    margin-top: 21px;
+}
+
+.btn i {
+    margin-right: 10px;
+}
+
+.order-actions .link {display: block;margin-top: 13px;width: 100%;text-align: center;color: #2d2d2d;text-decoration: underline;}
+
+.dish-desc .dish-price {
+    color: #333333;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 0;
+}
+.dish-desc .dish-price .currency {
+    font-size: 10px;
+}
+.dish-tags {
+    margin-top: 14px;
+}
+.order-item {
+    margin-bottom: 60px;
+}
