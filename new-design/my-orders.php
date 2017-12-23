@@ -363,10 +363,10 @@
                         </div>
                         <div class="col-md-9 order-detail">
                           <div class="row">
-                            <div class="col-md-3 fav-img-cont">
+                            <div class="col-md-2 fav-img-cont">
                               <img class="fav-img" src="" alt="Dish Image"/>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-10">
                               <div class="row">
                                 <div class="col-md-10">
                                   <div class="dish-title">Spaghetti and Meatballs</div>

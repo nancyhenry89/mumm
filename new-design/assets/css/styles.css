@@ -502,6 +502,7 @@ footer .social-item {
 .dish-title {
     font-size: 17px;
     margin-bottom: 6px;
+    font-weight: bold;
 }
 
 .rating {
@@ -815,4 +816,101 @@ footer .social-item {
 
 #past .order-detail>.row:last-of-type {
     border: none;
+}
+.day-picker .day {
+    float: left;
+    width: calc((100% - 60px) / 6);
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #1aa9e2;
+    color: #1aa9e2;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.day-picker .day:hover {
+    text-decoration: none;
+    background: #1aa9e2;
+    color: #fff;
+}
+
+.day-picker .day.selected {
+    background: #1aa9e2;
+    color: #fff;
+}
+
+.day-picker .day.selected:before {
+    content: "\f00c";
+    font: normal normal normal 15px/1 FontAwesome;
+    border-radius: 50%;
+    background: #fff;
+    color: #1aa9e2;
+    margin-right: 7px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    line-height: 15px;
+}
+.meals .location label,.meals .sort label {
+    color: #b4b4b4;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.meals .location .dropdown .btn,.meals .sort .dropdown .btn {
+    background: transparent;
+    border: none;
+    color: #1aa9e2;
+    padding: 0;
+}
+
+.meals .location .dropdown .btn i, .meals .sort .dropdown .btn i {
+    color: black;
+    font-size: 17px;
+}
+
+.meals .location,.meals .sort {
+    border-left: 1px solid #e6e6e6;
+}
+.day-picker i {
+    position: absolute;
+    top: 11px;
+    font-size: 17px;
+}
+.meals .meals-text {
+    height: 40px;
+    overflow: hidden;
+}
+
+.meals .meals-text:after {
+    content: '. . .';
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.meals-content {
+    margin-top: 60px;
+}
+.meals .dish-price {
+    text-align: center;
+    font-weight: bold;
+    color: #1aa9e2;
+}
+
+.meals .dish-price .currency {
+    font-size: 10px;
+}
+
+.meals .dish-price .price {
+    font-size: 24px;
+}
+.meals .dish-add-btn {
+    padding: 0 7px;
+}
+.meal-item {
+    margin-bottom: 70px;
+    padding: 0 30px;
 }
