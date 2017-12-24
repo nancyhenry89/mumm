@@ -6,7 +6,9 @@ header .logo {
     height: 100%;
     padding-top: 15px;
 }
-
+header .login-btn button.btn.btn-primary {
+    width: 120px;
+}
 header .logo img {
     width: 158px;
 }

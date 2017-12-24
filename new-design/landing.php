@@ -1,4 +1,4 @@
-<?php require_once('header.php'); ?>
+<?php require_once('header-landing.php'); ?>
     <div class="container-fluid landing">
         <div class="container-fluid landingBG">
             <div class="container banner">
