@@ -589,7 +589,16 @@ footer .social-item {
 
 .cust-img .col img {}
 
-img {}
+.meals-not-available .sad {
+    width: 103px;
+    margin-top: 30px;
+}
+.not-available-bg {
+    background: url('../img/not-available.png');
+    margin-bottom: -95px;
+    padding-bottom: 220px;
+    background-size: cover;
+}
 
 .who button.btn.btn-primary {
     margin-top: 19px;
@@ -1117,7 +1126,7 @@ img {}
     display: inline-block;
     line-height: 15px;
 }
-.meals .location label,.meals .sort label {
+.meals .location label, .meals .sort label,.meals .today-date label {
     color: #b4b4b4;
     text-transform: uppercase;
     font-size: 12px;
@@ -1176,4 +1185,44 @@ img {}
 .meal-item {
     margin-bottom: 70px;
     padding: 0 30px;
+}
+.calendar-icon {
+    position: absolute;
+    z-index: 9;
+    background: transparent;
+    border: 0;
+    color: #1aa9e2;
+    top: 9px;
+}
+
+div#datetimepicker1 input {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    border: 0;
+    padding-left: 40px;
+    height: 46px;
+}
+.meals-not-available .note {
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.meals-not-available .pick-day {
+    margin-top: 25px;
+}
+.pick-day label {
+    font-size: 15px;
+}
+
+div#datetimepicker1 {
+    width: 360px;
+    margin-top: 14px;
+}
+
+div#datetimepicker1 i {
+    position: absolute;
+    z-index: 9;
+    font-size: 19px;
+    top: 5px;
+    left: 332px;
+    color: #333333;
 }
