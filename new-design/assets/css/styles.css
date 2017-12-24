@@ -551,6 +551,97 @@ footer .social-item {
 .row.ppl-img img {
     width: 60px;
 }
+.container.who {
+    margin-top: 52px;
+}
+
+.container.who h2 {
+    font-size: 33px;
+}
+
+.cust-img .col {
+    width: 20%;
+    float: left;
+    margin-bottom: 32px;
+}
+
+.col.nbc img {
+    width: 58px;
+    margin-top: -5px;
+}
+
+.col.general img {
+    width: 120px;
+    margin-top: 7px;
+}
+
+.col.microsoft img {
+    width: 140px;
+    margin-top: 13px;
+}
+
+.col.usa img {
+    width: 130px;
+    margin-top: 14px;
+}
+
+.col.redbull img {width: 94px;}
+
+.cust-img .col img {}
+
+img {}
+
+.who button.btn.btn-primary {
+    margin-top: 19px;
+    height: 49px;
+    width: 360px;
+}
+
+.who a.link {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 17px;
+    text-decoration: underline;
+    color: #231f1f;
+}
+
+.container.sample-menu {
+    margin-top: 50px;
+}
+
+.container.sample-menu h2 {
+    font-size: 33px;
+}
+
+.sample-menu .dish-price {
+}
+
+.sample-menu .download-menu {width: 361px;margin-top: -26px;height: 50px;}
+.container.contact-hr {
+    background: #04a7e1;
+    width: 100%;
+    margin-top: 103px;
+}
+
+.contact-hr .form {
+    margin-top: 30px;
+    width: 28%;
+    margin: auto;
+}
+
+.contact-hr .form .btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+
+.contact-hr h3 {
+    font-size: 40px;
+    margin-top: 32px;
+    color: #fff;
+    margin-bottom: 44px;
+}
 .landingBG{
     background:url('../img/landingBG.png');
     height: 740px;
@@ -558,6 +649,7 @@ footer .social-item {
 }
 .container-fluid.landing {
     padding: 0;
+    margin-bottom: -95px;
 }
 .landing .banner {
     margin-top: 206px;

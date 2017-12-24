@@ -122,11 +122,11 @@
         <div class="container who text-center">
           <h2>Who’s getting mumm</h2>
           <div class="row cust-img">
-            <div class="col"><img src="assets/img/cust1.png"/></div>
-            <div class="col"><img src="assets/img/cust2.png"/></div>
-            <div class="col"><img src="assets/img/cust3.png"/></div>
-            <div class="col"><img src="assets/img/cust4.png"/></div>
-            <div class="col"><img src="assets/img/cust5.png"/></div>
+            <div class="col redbull"><img src="assets/img/cust1.png"/></div>
+            <div class="col usa"><img src="assets/img/cust2.png"/></div>
+            <div class="col microsoft"><img src="assets/img/cust3.png"/></div>
+            <div class="col general"><img src="assets/img/cust4.png"/></div>
+            <div class="col nbc"><img src="assets/img/cust5.png"/></div>
           </div>
           <div class="row">
             <div class="col-md-12">
@@ -137,7 +137,7 @@
             </div>
           </div>
         </div>
-        <div class="container sample-menu">
+        <div class="container sample-menu meals">
           <h2 class="text-center">Sample of what’s on the menu</h2>
           <div class="row">
             <div class="col-md-4 meal-item">
@@ -299,7 +299,7 @@
           </div>
           <div class="row">
             <div class="col-md-12 text-center">
-              <button class="btn btn-primary">Download Sample Menu</button>
+              <button class="btn btn-primary download-menu">Download Sample Menu</button>
             </div>
           </div>
         </div>
@@ -307,7 +307,7 @@
           <h3>Put us in touch with your HR Manager</h3>
           <div class="row form">
             <div class="col-md-12">
-              <input placeholder="Put us in touch with your HR Manager"/>
+              <input class="text-center" placeholder="HR manager e-mail address"/>
               <button class="btn btn-primary">Send</button>
             </div>
           </div>
