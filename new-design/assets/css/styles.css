@@ -58,7 +58,7 @@ header .my-account-list {
     margin-left: -172px;
 }
 .cart-details {
-    width: 298px;
+    width: 368px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
     border: solid 0.5px #fadf06;
     margin-top: 16px;
@@ -66,10 +66,47 @@ header .my-account-list {
     z-index: 9;
     position: absolute;
     float: left;
-    margin-left: -216px;
+    margin-left: -286px;
     margin-top: 5px;
+    padding: 10px;
+}
+.cart-item {
+    font-size: 12px;
+    text-align: left;
 }
 
+.cart-item .dish-name {
+    color: black;
+}
+
+.cart-item .dish-quantity a {
+    float: left;
+    display: inline-block;
+}
+
+.cart-item .dish-quantity input {
+    float: left;
+    width: 18px;
+    height: 18px;
+}
+.cart-title {
+    font-size: 17px;
+    color: #000;
+    text-align: left;
+    margin-bottom: 11px;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.cart-date {
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+}
 .cart-details:after, .cart-details:before {
 	bottom: 100%;
 	left: 87%;

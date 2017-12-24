@@ -50,7 +50,19 @@
             <div class="cart-details collapse" id="cart">
               <div class="cart-title">Your Cart</div>
               <div class="cart-date">Wednesday July 12, 2017</div>
-              <div class="cart-item"></div>
+              <div class="cart-item row">
+                <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
+                <div class="col-md-3 dish-quantity">
+                  <a href="" class="minus">-</a>
+                  <input type="text" class="quantity-number"/>
+                  <a href="" class="plus">+</a>
+                </div>
+                <div class="col-md-2 dish-price">
+                  <div class="currency">EGP</div>
+                  <div class="number">95</div>
+                </div>
+                <div class="col-md-2 remove-item"><a href="">x</a></div>
+              </div>
           </div>
           </div>
         </div>
