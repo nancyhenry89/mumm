@@ -8,7 +8,7 @@ header .logo {
 }
 
 header .logo img {
-    width: 140px;
+    width: 158px;
 }
 .full-width{
     width: 100%!important;
@@ -471,6 +471,86 @@ footer .social-item {
     color: #3b3a34;
     margin-top: 10px;
 }
+.container.benifits h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.container.benifits {
+    margin-top: 50px;
+}
+
+.benifits-item img {
+    height: 161px;
+}
+
+.benifits-item h4 {
+    color: #04a7e1;
+    font-size: 33px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+.benifits-item div {
+    margin-top: 18px;
+}
+
+.testimonials {
+    margin-top: 61px;
+}
+
+.testimonials h2 {
+    font-size: 33px;
+}
+
+.testimonials .video {
+    height: 250px;
+}
+
+.testimonials .quote {
+    width: 55%;
+    margin: 31px auto;
+    font-size: 17px;
+    color: #4b4b4b;
+    line-height: 28px;
+}
+
+.testimonials .quote span {}
+
+.testimonials .quote i {
+    color: #7acfec;
+    font-size: 34px;
+    position: absolute;
+}
+
+.testimonials .quote i.fa.fa-quote-left {
+    left: 25%;
+}
+
+.testimonials .quote i.fa.fa-quote-right {
+    right: 26%;
+}
+
+.container.ppl .name {width: 110px;margin: auto;padding-top: 20px;border-top: 1px solid #dae2e8;}
+
+.container.ppl .company-name {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.container.ppl {
+    margin-top: 18px;
+}
+
+.row.ppl-img {
+    width: 31%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.row.ppl-img img {
+    width: 60px;
+}
 .landingBG{
     background:url('../img/landingBG.png');
     height: 740px;
@@ -534,7 +614,7 @@ footer .social-item {
     margin-top: 21px;
 }
 .landing .container.info {
-    margin-top: 79px;
+    margin-top: 43px;
     width: 60%;
     font-size: 17px;
     color: #2d2d2d;
@@ -570,7 +650,7 @@ footer .social-item {
 
 .steps-line {
     position: relative;
-    margin-top: 11px;
+    margin-top: 8px;
 }
 .bread-crumb {
     float: left;

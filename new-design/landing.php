@@ -138,7 +138,7 @@
           </div>
         </div>
         <div class="container sample-menu">
-          <h2>Sample of what’s on the menu</h2>
+          <h2 class="text-center">Sample of what’s on the menu</h2>
           <div class="row">
             <div class="col-md-4 meal-item">
               <div class="row">
