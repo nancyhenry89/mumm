@@ -12,7 +12,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 logo">
-        <img src="assets/img/logo.png" alt="logo"/>
+        <img src="assets/img/logo-black.png" alt="logo"/>
       </div>
       <div class="col-md-2">
         <button class="btn btn-primary">Schedule Order</button>
