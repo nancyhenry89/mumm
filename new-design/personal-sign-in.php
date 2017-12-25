@@ -1,4 +1,4 @@
-<?php require_once('header.php'); ?>
+<?php require_once('header-login.php'); ?>
     <div class="container sign-up">
       <div class="row">
         <div class="col-md-6">

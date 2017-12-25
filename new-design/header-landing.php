@@ -20,10 +20,10 @@
   <div class="container">
     <div class="row">
         <div class="col-md-6 logo">
-            <img src="assets/img/logo-black.png" alt="logo"/>
+          <a href="landing.php"><img src="assets/img/logo-black.png" alt="logo"/></a>
         </div>
         <div class="col-md-6 login-btn">
-            <button class="btn btn-primary">Login</button>
+            <a href="login.php"><button class="btn btn-primary">Login</button></a>
         </div>
     </div>
 </div>

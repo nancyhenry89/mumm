@@ -5,6 +5,7 @@ body {
 header .logo {
     height: 100%;
     padding-top: 15px;
+    z-index: 99;
 }
 header .login-btn button.btn.btn-primary {
     width: 120px;
@@ -57,8 +58,33 @@ header .my-account-list {
     float: left;
     margin-left: -172px;
 }
+.cart .remove-item a {
+    color: #fae000;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.cart-item .dish-price div {
+    display: inline;
+}
+
+.cart-item .dish-price div.currency {font-size: 10px;}
+
+.cart-item .dish-price div.number {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cart-item .dish-price {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.cart-item .remove-item {
+    margin-top: 7px;
+}
 .cart-details {
-    width: 368px;
+    width: 366px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
     border: solid 0.5px #fadf06;
     margin-top: 16px;
@@ -66,31 +92,67 @@ header .my-account-list {
     z-index: 9;
     position: absolute;
     float: left;
-    margin-left: -286px;
+    margin-left: -284px;
     margin-top: 5px;
     padding: 10px;
 }
 .cart-item {
     font-size: 12px;
     text-align: left;
+    padding: 10px 0;
+    color: #333333;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #dcdedf;
+}
+
+.cart-item>div {
+    padding: 0;
 }
 
 .cart-item .dish-name {
     color: black;
+    margin-top: 12px;
 }
-
+.cart .dish-quantity {
+    padding: 0;
+    margin-top: 8px;
+}
 .cart-item .dish-quantity a {
     float: left;
     display: inline-block;
+    width: 27px;
+    height: 25px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 20px;
 }
 
-.cart-item .dish-quantity input {
+.cart-item .dish-quantity a:hover {
+    text-decoration: none;
+}
+
+.cart-item .dish-quantity a.minus {
+    background: #e6e6e6;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.cart-item .dish-quantity a.plus {
+    background: #fae000;
+    color: #000;
+}
+
+.cart-item .dish-quantity label {
     float: left;
-    width: 18px;
+    width: 8px;
     height: 18px;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: center;
 }
 .cart-title {
-    font-size: 17px;
+    font-size: 22px;
     color: #000;
     text-align: left;
     margin-bottom: 11px;
@@ -98,6 +160,7 @@ header .my-account-list {
     padding-bottom: 5px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .cart-date {
@@ -105,7 +168,7 @@ header .my-account-list {
     color: #fff;
     font-size: 12px;
     text-align: left;
-    padding: 5px;
+    padding: 1px 5px;
 }
 .cart-details:after, .cart-details:before {
 	bottom: 100%;
@@ -913,7 +976,7 @@ footer .social-item {
 
 .container.sign-up {
     width: 65%;
-    margin-top: 41px;
+    margin-top: 91px;
 }
 .sign-up .form i {
     font-size: 20px;

@@ -23,7 +23,7 @@
   <div class="container">
     <div class="row">
         <div class="col-md-12 logo">
-            <img src="assets/img/logo-black.png" alt="logo"/>
+          <a href="landing.php"><img src="assets/img/logo-black.png" alt="logo"/></a>
         </div>
     </div>
 </div>

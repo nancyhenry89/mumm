@@ -13,7 +13,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 logo">
-        <img src="assets/img/logo-black.png" alt="logo"/>
+        <a href="landing.php"><img src="assets/img/logo-black.png" alt="logo"/></a>
       </div>
       <div class="col-md-2">
         <button class="btn btn-primary">Schedule Order</button>
@@ -32,8 +32,8 @@
             </button>
           <div class="my-account-list collapse" id="my-account">
           <ul>
-            <li><a href="#">My Orders</a></li>
-            <li><a href="#">My Favorites</a></li>
+            <li><a href="my-orders.php">My Orders</a></li>
+            <li><a href="my-favorites.php">My Favorites</a></li>
             <li><a href="#">My Account</a></li>
             <li><a href="#">Logout</a></li>
           </ul>
@@ -53,15 +53,42 @@
               <div class="cart-item row">
                 <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
                 <div class="col-md-3 dish-quantity">
+                  <a href="#" class="minus">-</a>
+                  <label class="quantity-number"/>1</label>
+                  <a href="#" class="plus">+</a>
+                </div>
+                <div class="col-md-2 dish-price">
+                  <div class="currency">EGP</div>
+                  <div class="number">95</div>
+                </div>
+                <div class="col-md-1 remove-item"><a href="#">x</a></div>
+              </div>
+              <div class="cart-item row">
+                <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
+                <div class="col-md-3 dish-quantity">
                   <a href="" class="minus">-</a>
-                  <input type="text" class="quantity-number"/>
+                  <label class="quantity-number"/>1</label>
                   <a href="" class="plus">+</a>
                 </div>
                 <div class="col-md-2 dish-price">
                   <div class="currency">EGP</div>
                   <div class="number">95</div>
                 </div>
-                <div class="col-md-2 remove-item"><a href="">x</a></div>
+                <div class="col-md-1 remove-item"><a href="">x</a></div>
+              </div>
+              <div class="cart-date">Wednesday July 12, 2017</div>
+              <div class="cart-item row">
+                <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
+                <div class="col-md-3 dish-quantity">
+                  <a href="" class="minus">-</a>
+                  <label class="quantity-number"/>1</label>
+                  <a href="" class="plus">+</a>
+                </div>
+                <div class="col-md-2 dish-price">
+                  <div class="currency">EGP</div>
+                  <div class="number">95</div>
+                </div>
+                <div class="col-md-1 remove-item"><a>x</a></div>
               </div>
           </div>
           </div>
