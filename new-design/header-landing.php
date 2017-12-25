@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <style>
     header{
-      position: absolute;
-      background: rgba(255,255,255,0.5);
-      width: 100%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    top: 0;
     }
   </style>
 </head>

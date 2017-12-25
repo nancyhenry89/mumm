@@ -43,7 +43,7 @@
             </div>
             <div class="col-md-12 text-center">
                 <span>Already have an account?</span>
-                <a href="#" class="link sp">Login here</a>
+                <a href="personal-sign-in.php" class="link sp">Login here</a>
             </div>
           </div>
         </div>

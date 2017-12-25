@@ -1,5 +1,5 @@
-<?php require_once('header-login.php'); ?>
-    <div class="container sign-up">
+<?php require_once('header-landing.php'); ?>
+    <div class="container sign-up sign-in">
       <div class="row">
         <div class="col-md-6">
           <div class="sign-up-banner">
@@ -13,17 +13,9 @@
           </div>
         </div>
         <div class="col-md-5 sign-up-content">
-          <h4 class="sp">Welcome to mumm!</h4>
-          <div>Join and enjoy your Mumm</div>
+          <h4 class="sp">Welcome back!</h4>
+          <div>Sign in to your account</div>
           <div class="row form">
-            <div class="col-md-12">
-                <label>First name</label>
-                <input name="first-name"/>
-            </div>
-            <div class="col-md-12">
-                <label>Last name</label>
-                <input name="last-name"/>
-            </div>
             <div class="col-md-12">
                 <label>E-mail</label>
                 <input name="email"/>
@@ -34,16 +26,28 @@
                 <i class="fa fa-eye" aria-hidden="true"></i>
             </div>
             <div class="col-md-12">
-                <label>Retype password</label>
-                <input name="password" type="password"/>
-                <i class="fa fa-eye" aria-hidden="true"></i>
-            </div>
-            <div class="col-md-12">
+              <a href="personal-sign-up.php">
                 <button class="btn btn-primary full-width">Sign Up</button>
+              </a>
             </div>
             <div class="col-md-12 text-center">
-                <span>Already have an account?</span>
-                <a href="#" class="link sp">Login here</a>
+                <a href="#" class="link sp float">Forgot password?</a>
+                <a href="#" class="link sp float-op">Create account</a>
+            </div>
+            <div class="col-md-12 text-center">
+                <div class="sep-or">Or</div>
+            </div>
+            <div class="col-md-12 social-login">
+                <button id="facebook-login" class="btn btn-primary full-width">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <span>Sign in with facebook</span>
+                </button>
+            </div>
+            <div class="col-md-12 social-login">
+                <button id="google-login" class="btn btn-primary full-width">
+                  <i class="fa fa-google" aria-hidden="true"></i>
+                  <span>Sign in with Google</span>
+                  </button>
             </div>
           </div>
         </div>

@@ -2,6 +2,12 @@ body {
     font-family: 'Muli', sans-serif;
     background: #f4f7f8;
 }
+.float{
+  float: left;
+}
+.float-op{
+  float: right
+}
 header .logo {
     height: 100%;
     padding-top: 15px;
@@ -956,6 +962,10 @@ footer .social-item {
     width: 100%;
 }
 
+.sign-in .sign-up-banner img {
+    height: 650px;
+}
+
 .sign-up h3 {
     position: absolute;
     bottom: 28px;
@@ -984,6 +994,12 @@ footer .social-item {
     right: 33px;
     top: 62px;
     color: #02a7e1;
+}
+
+.sign-up .form .social-login i {
+    top: 27px;
+    color: #fff;
+    left: 30px;
 }
 
 .sign-up h4 {
@@ -1053,6 +1069,10 @@ footer .social-item {
 }
 .container-fluid.plates {
     position: relative;
+    background: url('../img/food-bg.png');
+    margin-top: 215px;
+    /* height: 100%; */
+    background-size: cover;
 }
 .nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{
     color: #221f1f;
@@ -1327,4 +1347,73 @@ div#datetimepicker1 i {
     top: 5px;
     left: 332px;
     color: #333333;
+}
+button#facebook-login {
+    background: #3b5998;
+    color: #fff;
+    text-align: left;
+    padding-left: 60px;
+}
+
+button#google-login {
+    background: #dd4b39;
+    color: #fff;
+    text-align: left;
+    padding-left: 60px;
+}
+.sep-or {
+    color: #c7c7c7;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 50%;
+    position: relative;
+    margin-left: -12px;
+    margin-top: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.sep-or:before {
+    content: '';
+    border: 1px solid;
+    width: 161px;
+    display: block;
+    top: 13px;
+    position: absolute;
+    left: 29px;
+}
+.sep-or:after {
+    content: '';
+    border: 1px solid;
+    width: 161px;
+    display: block;
+    top: 13px;
+    position: absolute;
+    right: 29px;
+}
+.sign-in .form .btn.btn-primary {
+    margin: 30px 0px;
+    height: 53px;
+}
+
+.sign-in .form .social-login .btn.btn-primary {
+    margin: 10px 0;
+    height: 50px;
+}
+.privacy-policy .title {
+    color: #02a7e1;
+    font-size: 18px;
+    margin-bottom: 22px;
+    font-weight: bold;
+}
+
+.privacy-policy .statement {
+    font-size: 16px;
+    margin-bottom: 23px;
+    color: #221f1f;
+}
+.privacy-policy p {
+    margin-bottom: 25px;
 }
