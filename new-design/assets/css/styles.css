@@ -400,7 +400,7 @@ footer .social-item {
 .container .form label {
     width: 100%;
     margin: 15px 0px;
-    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
 }
 
 .container .form input {
@@ -1443,4 +1443,25 @@ button#google-login {
 }
 .container-fluid.not-found-bg{
       background: url('../img/food-bg.png');
+}
+.container.reset-password {
+    width: 50%;
+    font-size: 20px;
+    margin-top: 120px;
+}
+
+.reset-password .text-center {
+}
+
+.reset-password .form {
+    width: 55%;
+    margin: auto;
+    margin-top: 26px;
+}
+.reset-password .form i {
+    font-size: 20px;
+    position: absolute;
+    right: 33px;
+    top: 62px;
+    color: #fae000;
 }
