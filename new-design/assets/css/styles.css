@@ -1417,3 +1417,30 @@ button#google-login {
 .privacy-policy p {
     margin-bottom: 25px;
 }
+.not-found img {
+    width: 540px;
+    margin-top: 120px;
+}
+
+.not-found h4 {
+    margin-top: 50px;
+    font-size: 27px;
+    color: #04a7e1;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.not-found div {
+    font-size: 15px;
+    color: #221f1f;
+    margin-top: 18px;
+}
+
+.not-found .btn {
+    margin-top: 40px;
+    width: 335px;
+    height: 48px;
+}
+.container-fluid.not-found-bg{
+      background: url('../img/food-bg.png');
+}
