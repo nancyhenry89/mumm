@@ -825,6 +825,10 @@ footer .social-item {
     margin-top: 30px;
 }
 
+.landing .four-steps .steps {
+    margin-top: 54px;
+}
+
 .landing.home .about .steps {
     margin-bottom: 50px;
 }
@@ -839,6 +843,10 @@ footer .social-item {
     width: 73%;
     margin: auto;
     margin-top: 21px;
+}
+
+.landing .four-steps .steps .step-title {
+    font-size: 16px;
 }
 
 .landing.home .about .steps .step-title {
@@ -880,6 +888,12 @@ footer .social-item {
     left: 50%;
     margin-left: -32.5%;
     top: 13px;
+}
+
+.four-steps .steps-line:before {
+    content:  "";
+    width: 76%;
+    margin-left: -38%;
 }
 
 .steps-line {
@@ -1579,4 +1593,245 @@ a.scrollTO {
     left: 50%;
     margin-left: -20px;
     cursor: pointer;
+}
+.dish-types {
+    margin-top: 13px;
+}
+
+.dish-types .steps {
+    margin-top: 53px;
+}
+
+.dish-types h3 {
+    font-size: 33px;
+}
+
+.dish-type-item img {
+    width: auto;
+    min-height: 340px;
+}
+
+.dish-type-item {
+    background: #fff;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 36px;
+}
+
+.dish-type-item .type {
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 190px;
+    margin-top: -95px;
+    background: #fbdf09;
+    z-index: 9;
+    position: relative;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 45px;
+}
+
+.dish-type-item .type i {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.dish-type-item .time {
+    color: #36b5e6;
+    font-weight: bold;
+    margin-bottom: 9px;
+    margin-top: 16px;
+}
+
+.dish-type-item .btn.btn-primary {
+    width: 119px;
+    height: 49px;
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+.corp-img {
+    height: 170px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.corp-img:before {
+    border-top: 71px solid #ffffff;
+    border-left: 38px solid transparent;
+    border-right: 51px solid transparent;
+    height: 0;
+    width: 50px;
+    content: "";
+    z-index: 9;
+    position: absolute;
+    right: -51px;
+    bottom: 0;
+}
+
+.corp-title {
+    background: transparent;
+    position: absolute;
+    right: -42px;
+    height: 150px;
+    top: -5px;
+    font-size: 14px;
+    width: 131px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 150px solid #fae000;
+    border-left: 0px solid transparent;
+    border-right: 37px solid transparent;
+    padding-left: 10px;
+    z-index: 9;
+}
+
+.corp-title i {
+    font-size: 29px;
+    padding-top: 37px;
+}
+
+.corp .info {
+    position: relative;
+}
+
+.corp {}
+
+.corp .row >div {
+}
+
+.corp .col-md-5 {
+    padding-right: 0;
+}
+
+.corp .col-md-7 {
+    padding-left: 0;
+    height: 170px;
+}
+
+.corp .row {
+}
+
+.corp .detail {
+    padding-left: 30px;
+    background: #fff;
+    height: 100%;
+    border-radius: 8px;
+}
+.corp .detail p {
+    float: left;
+    width: 480px;
+    max-width: 75%;
+    padding-top: 44px;
+    padding-left: 33px;
+    font-size: 15px;
+}
+
+.corp .detail .btn {
+    margin-top: 48px;
+    width: 123px;
+    height: 50px;
+}
+.four-steps {
+    margin-top: 66px;
+}
+
+.four-steps h3 {
+    font-size: 33px;
+}
+
+.landing .four-steps .steps img.imgstep-img {
+    height: 67px;
+}
+.mumm-top {
+    margin-top: 65px;
+}
+
+.mumm-top h3 {
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.top-cooks .cook-item {
+    background: white;
+    height: 90px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.top-cooks .cook-item .cook-img {
+    float: left;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.top-cooks .cook-item .cook-img img {
+    width: 70px;
+}
+
+.top-cooks .cook-item .num {
+    color: #fbdf09;
+    font-size: 25px;
+    float: left;
+    width: 60px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.top-cooks .cook-details {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    float: left;
+    margin-top: 26px;
+    padding-left: 14px;
+}
+
+.top-cooks .cook-details .location {
+    font-size: 15px;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-inner > .item {
+    overflow: hidden;
+}
+.carousel-inner:before {
+    position:absolute;
+    top:0;
+    bottom: 0;
+    right: 82%;
+    left: 0;
+    content:"";
+    display:block;
+    background-color: #fff;
+    z-index: 2;
+}
+.carousel-inner:after {
+    position:absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    left: 82%;
+    content:"";
+    display:block;
+    background-color:#fff;
+    z-index: 2;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background: initial;
+    width: 30%;
+    color: #000;
+    z-index: 10;
+    top: -10px;
 }

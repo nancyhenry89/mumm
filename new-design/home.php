@@ -39,6 +39,9 @@
               </div>
           </div>
           <a class="scrollTO"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+          <div class="side-image">
+            <img src="assets/img/plate5.png"/>
+          </div>
         </div>
         <div class="container about text-center">
           <div class="row">
@@ -90,14 +93,15 @@
             </div>
           </div>
         </div>
-        <div class="container dish-types">
+        <div class="container dish-types text-center">
           <div class="row">
             <div class="col-md-12">
               <h3>Dishes types</h3>
               <div class="steps">
                 <div class="row">
-                  <div class="col-md-4 dish-type-item">
-                      <img class="imgstep-img" src="" alt="dish type image"/>
+                  <div class="col-md-4">
+                    <div class="dish-type-item">
+                      <img class="imgstep-img" src="assets/img/sample1.png" alt="dish type image"/>
                       <div class="type">
                         <i class="fa fa-cutlery" aria-hidden="true"></i>
                         <span>Single</span>
@@ -105,9 +109,11 @@
                       <div class="time">3 Hours</div>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                       <button class="btn btn-primary">Order Now</button>
+                    </div>
                   </div>
-                  <div class="col-md-4 dish-type-item">
-                      <img class="imgstep-img" src="" alt="dish type image"/>
+                  <div class="col-md-4">
+                    <div class="dish-type-item">
+                      <img class="imgstep-img" src="assets/img/sample2.png" alt="dish type image"/>
                       <div class="type">
                         <i class="fa fa-cubes" aria-hidden="true"></i>
                         <span>Frozen</span>
@@ -115,9 +121,11 @@
                       <div class="time">24 Hours</div>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                       <button class="btn btn-primary">Order Now</button>
+                    </div>
                   </div>
-                  <div class="col-md-4 dish-type-item">
-                    <img class="imgstep-img" src="" alt="dish type image"/>
+                  <div class="col-md-4">
+                    <div class="dish-type-item">
+                    <img class="imgstep-img" src="assets/img/sample1.png" alt="dish type image"/>
                       <div class="type">
                         <i class="fa fa-users" aria-hidden="true"></i>
                         <span>Family</span>
@@ -125,6 +133,7 @@
                       <div class="time">24 Hours</div>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                       <button class="btn btn-primary">Order Now</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -135,7 +144,7 @@
           <div class="row">
             <div class="col-md-5">
               <div class="info">
-                <div class="corp-img"><img src="" alt="corporate subscription image" /></div>
+                <div class="corp-img"><img src="assets/img/benifits3.png" alt="corporate subscription image" /></div>
                 <div class="corp-title">
                   <i class="fa fa-briefcase" aria-hidden="true"></i>
                   <label>Corporate Subscription</label>
@@ -192,7 +201,7 @@
                   <div class="cook-item">
                     <div class="num">1</div>
                     <div class="cook-img">
-                      <img src="#" alt="cook-img"/>
+                      <img src="assets/img/ppl1.png" alt="cook-img"/>
                     </div>
                     <div class="cook-details">
                       <div class="title">Manal’s Kitchen</div>
@@ -207,10 +216,10 @@
                   <div class="cook-item">
                     <div class="num">1</div>
                     <div class="cook-img">
-                      <img src="#" alt="cook-img"/>
+                      <img src="assets/img/ppl1.png" alt="cook-img"/>
                     </div>
                     <div class="cook-details">
-                      <div class="title">Manal’s Kitchen</div>
+                      <div class="title">Nevine’s Kitchen</div>
                       <div class="location">
                           <i class="fa fa-map-marker" aria-hidden="true"></i>
                           <span>Delivers to Maadi</span>
@@ -222,10 +231,10 @@
                   <div class="cook-item">
                     <div class="num">1</div>
                     <div class="cook-img">
-                      <img src="#" alt="cook-img"/>
+                      <img src="assets/img/ppl1.png" alt="cook-img"/>
                     </div>
                     <div class="cook-details">
-                      <div class="title">Manal’s Kitchen</div>
+                      <div class="title">Sahar’s Kitchen</div>
                       <div class="location">
                           <i class="fa fa-map-marker" aria-hidden="true"></i>
                           <span>Delivers to Maadi</span>
@@ -237,10 +246,10 @@
                   <div class="cook-item">
                     <div class="num">1</div>
                     <div class="cook-img">
-                      <img src="#" alt="cook-img"/>
+                      <img src="assets/img/ppl1.png" alt="cook-img"/>
                     </div>
                     <div class="cook-details">
-                      <div class="title">Manal’s Kitchen</div>
+                      <div class="title">Marwa’s Kitchen</div>
                       <div class="location">
                           <i class="fa fa-map-marker" aria-hidden="true"></i>
                           <span>Delivers to Maadi</span>
@@ -253,57 +262,32 @@
             <div class="col-md-6 top-dishes">
               <h3>mumm's top dishes</h3>
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <div class="slider-img">
-          <img src=""  alt="Dish Image"/>
-        </div>
-        <div class="slider-details">
-          <div class="dish-title">Chicken Pane - 1kg</div>
-          <div class="rating">
-            <div class="rating-stars">
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-half" aria-hidden="true"></i>
-            </div>
-            <div class="rating-number">4.5</div>
-          </div>
-          <div class="cook-img">
-            <img src="#" alt="cook-img"/>
-          </div>
-          <div class="cook-details">
-            <div class="title">Manal’s Kitchen</div>
-            <div class="location">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>Delivers to Maadi</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
-      </div>
-
-      <div class="item">
-        <img src="ny.jpg" alt="New york" style="width:100%;">
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+              <div class="carousel slide" id="myCarousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-xs-4">
+                                        <a href="#"><img src="//placehold.it/900x800?text=1" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4">
+                                        <a href="#"><img src="//placehold.it/900x800/CC3300?text=2" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4">
+                                        <a href="#"><img src="//placehold.it/900x800/FFCC33?text=3" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                                 <div class="item">
+                                    <div class="col-xs-4">
+                                        <a href="#"><img src="//placehold.it/900x800/5500FF?text=4" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                        </div>
 
 
             </div>
