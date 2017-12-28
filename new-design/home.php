@@ -168,18 +168,22 @@
                   <div class="col-md-3">
                       <img class="imgstep-img" src="assets/img/sol2.png" alt="step 1"/>
                       <div class="step-title">You place your order</div>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                   </div>
                   <div class="col-md-3">
                       <img class="imgstep-img" src="assets/img/wok.png" alt="step 2"/>
                       <div class="step-title">Cook starts cooking</div>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                   </div>
                   <div class="col-md-3">
                       <img class="imgstep-img" src="assets/img/sol3.png" alt="step 3"/>
                       <div class="step-title">Delivery takes the ordera and deliver it to you</div>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                   </div>
                   <div class="col-md-3">
                       <img class="imgstep-img" src="assets/img/step3.png" alt="step 4"/>
                       <div class="step-title">Rate your experience</div>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                   </div>
                 </div>
                 <div class="row steps-line">
@@ -191,6 +195,7 @@
               </div>
             </div>
           </div>
+        </div>
         </div>
         <div class="container mumm-top">
           <div class="row">
@@ -266,32 +271,61 @@
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <div class="col-xs-4">
-                                        <a href="#"><img src="//placehold.it/900x800?text=1" class="img-responsive"></a>
+                                      <div class="slider-img">
+                                              <img src="assets/img/sample1.png"  alt="Dish Image"/>
+                                            </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-xs-4">
-                                        <a href="#"><img src="//placehold.it/900x800/CC3300?text=2" class="img-responsive"></a>
-                                    </div>
+                                      <div class="slider-img">
+                                              <img src="assets/img/sample2.png"  alt="Dish Image"/>
+                                            </div>
+                                      </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-xs-4">
-                                        <a href="#"><img src="//placehold.it/900x800/FFCC33?text=3" class="img-responsive"></a>
-                                    </div>
+                                      <div class="slider-img">
+                                              <img src="assets/img/sample1.png"  alt="Dish Image"/>
+                                            </div>
+                                        </div>
                                 </div>
                                  <div class="item">
                                     <div class="col-xs-4">
-                                        <a href="#"><img src="//placehold.it/900x800/5500FF?text=4" class="img-responsive"></a>
-                                    </div>
+                                      <div class="slider-img">
+                                              <img src="assets/img/sample2.png"  alt="Dish Image"/>
+                                            </div>
+                                      </div>
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
                             <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
                         </div>
-
+                        <div class="slider-details text-center">
+                          <div class="dish-title">Chicken Pane - 1kg</div>
+                          <div class="rating">
+                            <div class="rating-stars">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star-half" aria-hidden="true"></i>
+                            </div>
+                          </div>
+                          <div class="cook-img">
+                            <img src="assets/img/ppl1.png" alt="cook-img"/>
+                          </div>
+                          <div class="cook-details">
+                            <div class="title">Manal’s Kitchen</div>
+                            <div class="location">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>Delivers to Maadi</span>
+                            </div>
+                          </div>
+                        </div>                                    </div>
 
             </div>
-          </div>
+
         </div>
         <div class="container quote">
           <h2>What they say about us</h2>
