@@ -74,10 +74,9 @@
             </button>
             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Week</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Month<</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Day<</a></li>
-            <li role="presentation" class="divider"></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Year<</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Month</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Day</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Year</a></li>
             </ul>
         </div>
         <span>with my upcoming favorites</span>
@@ -93,10 +92,9 @@
             </button>
             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
               <li role="presentation"><a role="menuitem" tabindex="-1" href="#">9 AM - 11 AM</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">10 AM - 12 AM<</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">9 AM - 11 AM<</a></li>
-              <li role="presentation" class="divider"></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">9 AM - 11 AM<</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">10 AM - 12 AM</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">9 AM - 11 AM</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">9 AM - 11 AM</a></li>
             </ul>
         </div>
         </label>
