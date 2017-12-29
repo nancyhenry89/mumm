@@ -12,7 +12,7 @@
                   <i class="fa fa-user" aria-hidden="true"></i>
                   <div>Information</div>
                 </div>
-                <div class="step">
+                <div class="step incomplete">
                   <i class="fa fa-check-circle" aria-hidden="true"></i>
                   <div>Confirmation</div>
                 </div>
@@ -31,7 +31,7 @@
                   <span>LATER</span>
               </button>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 selection">
               <div class="dropdown">
                   <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">select date
                     <i class="fa fa-angle-down" aria-hidden="true"></i>

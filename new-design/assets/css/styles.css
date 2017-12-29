@@ -1976,9 +1976,18 @@ a.scrollTO {
         text-align: center;
     }
 
+.checkout-header h2 {
+    margin-top: 59px;
+    font-size: 30px;
+    margin-bottom: 27px;
+}
+
     .checkout-steps .step {
         float: left;
         width: calc(100% / 3);
+        position: relative;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: bold;
     }
 
     .checkout-steps .step i {
@@ -1990,15 +1999,76 @@ a.scrollTO {
         line-height: 50px;
     }
 
+.checkout-steps .step.incomplete i {
+    background: #dfdfdf;
+    color: #a09d9d;
+}
+
     .checkout-steps .step i:after {
         content: '';
-        height: 2px;
-        width: 70px;
-        background: #fae000;
+        height: 6px;
+        width: calc(100% - 50px);
+        background: inherit;
         display: block;
         position: absolute;
+        left: 115px;
+        top: 22px;
     }
 
+.checkout-steps .step:last-of-type i:after {
+    left: -65px;
+}
+
     .checkout-steps {
-        margin-top: 60px;
+        margin-top: 44px;
     }
+.order-time .btn {
+    background: #dfdfdf;
+    width: 150px;
+    border-radius: 20px;
+    height: 45px;
+    font-size: 13px;
+    position: relative;
+    font-weight: normal;
+    margin-bottom: 21px;
+}
+
+.order-time .btn i {
+    font-size: 18px;
+    position: absolute;
+    left: 16px;
+    display:  none;
+}
+
+.order-time .btn.selected {
+    background: #fae000;
+}
+
+.order-time .btn.selected i {
+    display: block;
+    color: #b29d00;
+}
+.checkout-header .selection .dropdown {
+    width: calc(50% - 10px);
+    float: left;
+}
+
+.checkout-header .selection .dropdown .btn i {
+    position: absolute;
+    right: 4px;
+    font-size: 18px;
+}
+
+.checkout-header .selection .dropdown:first-of-type {
+    margin-right: 10px;
+}
+
+.checkout-header .selection .dropdown .btn {
+    width: 100%;
+    border: 0;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    height: 49px;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px 20px;
+}
