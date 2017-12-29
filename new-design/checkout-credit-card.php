@@ -99,7 +99,7 @@
           </div>
           <div class="row client-info">
             <h2>Delivery Address</h2>
-            <div class="sp">* Required fields</div>
+            <div class="sp label">* Required fields</div>
             <div class="row radio">
               <div class="col-md-12">
               <form>
@@ -189,7 +189,7 @@
                     <label>Security code<span class="sp">*</span></label>
                     <input name="security-code"/>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                   <button class="btn btn-default" id="promo-code" type="button">Add Promotional Code</button>
                 </div>
                 <div class="col-md-12 payment-summary">
@@ -232,7 +232,7 @@
               <div class="cook-name">Manal’s Kitchen Order</div>
               <a class="link">Remove order</a>
             </div>
-            <div class="cook-item">
+            <div class="cook-item cart-item">
               <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-3 dish-quantity">
                 <a href="#" class="minus">-</a>
@@ -245,7 +245,7 @@
               </div>
               <div class="col-md-1 remove-item"><a href="#">x</a></div>
             </div>
-            <div class="cook-item">
+            <div class="cook-item cart-item">
               <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-3 dish-quantity">
                 <a href="#" class="minus">-</a>
@@ -295,7 +295,7 @@
               <div class="cook-name">Manal’s Kitchen Order</div>
               <a class="link">Remove order</a>
             </div>
-            <div class="cook-item">
+            <div class="cook-item cart-item">
               <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-3 dish-quantity">
                 <a href="#" class="minus">-</a>
@@ -308,7 +308,7 @@
               </div>
               <div class="col-md-1 remove-item"><a href="#">x</a></div>
             </div>
-            <div class="cook-item">
+            <div class="cook-item cart-item">
               <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-3 dish-quantity">
                 <a href="#" class="minus">-</a>
@@ -361,8 +361,8 @@
               </div>
             </div>
           </div>
-          <div class="text-center">
-            <div class="questin">Want to add more dishes? </div>
+          <div class="text-center col-md-12">
+            <div class="question">Want to add more dishes? </div>
             <div class="link sp">Click here to go back to our menu</div>
           </div>
         </div>

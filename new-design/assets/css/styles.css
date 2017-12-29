@@ -441,6 +441,10 @@ footer .social-item {
 .container .form {
     margin-bottom: 30px;
 }
+
+.client-info .form {
+    margin-bottom: 0;
+}
 .account-balance .info {
     margin-top: 25px;
     font-size: 13px;
@@ -967,7 +971,7 @@ footer .social-item {
 }
 .currency {
     text-align: center;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .price {
@@ -2071,4 +2075,207 @@ a.scrollTO {
     font-size: 15px;
     text-align: left;
     padding: 10px 20px;
+}
+.client-info h2 {
+    margin-bottom: 18px;
+    margin-top: 38px;
+}
+
+.client-info .dropdown {
+    width: 100%;
+}
+
+.client-info .dropdown .btn {
+    width: 100%;
+    height: 48px;
+    border: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    text-align: left;
+}
+
+.client-info .dropdown .btn i {
+    right: 20px;
+    position: absolute;
+    font-size: 19px;
+}
+
+.client-info div#datetimepicker1 {
+    margin-top: 0;
+}
+.client-info .sp.label {margin-top: -15px;display: block;text-align: left;padding-left: 0;}
+
+.client-info .radio {
+    margin-top: 25px;
+}
+
+.client-info .radio form {
+    margin-bottom: 0;
+}
+
+.client-info .radio .radio-inline {
+    margin-right: 36px;
+    margin-bottom: 0px;
+}
+
+.client-info .radio .radio-inline input {
+}
+
+.payment-details h2 {margin-top: 22px;font-size: 31px;margin-bottom: 15px;text-align: center;}
+
+.payment-details .form .payment-type .btn.btn-primary {
+    width: calc(50% - 40px);
+    background: #dfdfdf;
+    border-radius: 20px;
+    height: 49px;
+    font-size: 13px;
+    position: relative;
+    font-weight: normal;
+    margin-bottom: 21px;
+    font-size: 14px;
+}
+
+.payment-details .payment-type .btn i {
+    font-size: 18px;
+    position: absolute;
+    left: 16px;
+    display: none;
+}
+
+.payment-details .form .payment-type .btn.btn-primary.selected {
+    background: #fae000;
+}
+
+.payment-details .payment-type .btn.selected i {
+    display: block;
+    color: #b29d00;
+}
+.payment-details {
+    width: 60%;
+    margin: auto;
+}
+.payment-details .form {
+    text-align: left;
+}
+button#promo-code {
+    background: transparent;
+    color: #1aa9e2;
+    border: 1px dashed;
+    margin-top: -10px;
+    width: 322px;
+    height: 38px;
+}
+.payment-summary .item>div {
+    width: 50%;
+    float: left;
+}
+
+.payment-summary .item .description {
+    text-align: left;
+    line-height: 35px;
+}
+
+.payment-summary .item .price {
+    text-align: right;
+    line-height: 35px;
+}
+
+.payment-summary .item .price>div {
+    display: inline;
+}
+
+.payment-summary .item .price .number {
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+}
+
+.payment-summary, .payment-total {
+    width: 80%;
+    left: 10%;
+    float: left;
+    font-size: 12px;
+    color: #3c3a3a;
+    margin-top: 30px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+.payment-total {
+    border: 0;
+    margin-top: 20px;
+}
+
+.payment-summary .item {}
+.payment-details .form-group {
+    width: 100%;
+}
+
+.payment-details .form-group .input-group {
+    width: 100%;
+}
+
+.payment-total>div {
+    width: 50%;
+    float: left;
+    font-size: 17px;
+}
+
+.payment-total .price>div {
+    display: inline;
+}
+
+.payment-total .price .number {
+    font-size: 22px;
+}
+
+.payment-total .price {
+    text-align: right;
+}
+
+.payment-details .form .btn.btn-primary {
+    width: 80%;
+    left: 10%;
+    position: relative;
+    height: 45px;
+}
+.order-summary {
+    margin-top: 52px;
+    border: 1px solid #e6e6e6;
+    padding: 10px 20px;
+}
+.row.client-info {
+    margin-right: 20px;
+}
+.order-summary h3 {
+    padding-bottom: 14px;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+}
+
+.order-item .cook img {
+    width: 45px;
+    border: 2px solid #fbdf09;
+    border-radius: 50%;
+    float: left;
+}
+
+.order-item .cook {
+    background: #dedede;
+    height: 57px;
+    padding: 7px;
+}
+
+.order-item .cook-name {
+    float: left;
+    line-height: 45px;
+    padding-left: 10px;
+}
+
+.order-item .link {
+    color: #e84c3c;
+    text-decoration: underline;
+    line-height: 40px;
+    float: right;
+    font-size: 12px;
 }
