@@ -2385,3 +2385,77 @@ button#promo-code {
 .cook-item.cart-item .dish-name {
     padding: 0 3px;
 }
+img.fav-img {
+    max-width: 100%;
+}
+.confirmation-summary {
+    float: left;
+    width: 100%;
+}
+
+.confirmation-content .order-summary {
+    width: 100%;
+    margin-top: 0;
+}
+.confirmation-header .check-mark {
+    font-size: 78px;
+    color: #fae000;
+}
+
+.confirmation-header {
+    margin-top: 60px;
+    font-size: 17px;
+    margin-bottom: 77px;
+}
+
+.confirmation-header h2 {
+    font-size: 30px;
+    margin: 28px 0;
+}
+.confirmation-content .delivery-time {
+    margin: 20px 0;
+    font-size: 19px;
+}
+
+.confirmation-content .delivery-time span {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.confirmation-content .order-date .date {
+    width: 70px;
+    position: relative;
+    left: 50%;
+    margin-left: -35px;
+}
+.confirmation-content .order-item .dish-price {
+    color: #04a7e1;
+}
+.confirmation-summary .cart-item {
+    padding: 14px 0;
+}
+
+.confirmation-grand-total.cart-item .dish-price div.number {
+    font-size: 23px;
+}
+
+.order-summary .cart-item.confirmation-grand-total {
+    border-color: #333333;
+    border: 0;
+    border-top: 1px solid #333333;
+    float: left;
+}
+.confirmation-grand-total .info {
+    color: #949494;
+    margin-top: 20px;
+}
+.confirmation-summary .dish-name span {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.confirmation-total.cart-item {
+    border: 0;
+    border-top:1px solid #333333;
+    float: left;
+}
