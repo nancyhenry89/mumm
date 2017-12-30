@@ -224,7 +224,8 @@
               </div>
             </div>
         </div>
-        <div class="col-md-4 order-summary">
+        <div class="col-md-4">
+          <div class="order-summary">
           <h3>Order Summary</h3>
           <div class="order-item">
             <div class="cook">
@@ -233,12 +234,12 @@
               <a class="link">Remove order</a>
             </div>
             <div class="cook-item cart-item">
-              <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-3 dish-quantity">
                 <a href="#" class="minus">-</a>
                 <label class="quantity-number"/>1</label>
                 <a href="#" class="plus">+</a>
               </div>
+              <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-2 dish-price">
                 <div class="currency">EGP</div>
                 <div class="number">95</div>
@@ -246,12 +247,12 @@
               <div class="col-md-1 remove-item"><a href="#">x</a></div>
             </div>
             <div class="cook-item cart-item">
-              <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-3 dish-quantity">
                 <a href="#" class="minus">-</a>
                 <label class="quantity-number"/>1</label>
                 <a href="#" class="plus">+</a>
               </div>
+              <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-2 dish-price">
                 <div class="currency">EGP</div>
                 <div class="number">95</div>
@@ -296,12 +297,12 @@
               <a class="link">Remove order</a>
             </div>
             <div class="cook-item cart-item">
-              <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-3 dish-quantity">
                 <a href="#" class="minus">-</a>
                 <label class="quantity-number"/>1</label>
                 <a href="#" class="plus">+</a>
               </div>
+              <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-2 dish-price">
                 <div class="currency">EGP</div>
                 <div class="number">95</div>
@@ -309,12 +310,12 @@
               <div class="col-md-1 remove-item"><a href="#">x</a></div>
             </div>
             <div class="cook-item cart-item">
-              <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-3 dish-quantity">
                 <a href="#" class="minus">-</a>
                 <label class="quantity-number"/>1</label>
                 <a href="#" class="plus">+</a>
               </div>
+              <div class="col-md-6 dish-name">Paleo Grilled Chicken Bowl</div>
               <div class="col-md-2 dish-price">
                 <div class="currency">EGP</div>
                 <div class="number">95</div>
@@ -323,14 +324,14 @@
             </div>
             <div class="price-cook">
               <div class="item">
-                <div class="description">First Kitchen fees</div>
+                <div class="description">Subtotal</div>
                 <div class="price">
                   <div class="currency">EGP</div>
                   <div class="number">70</div>
                 </div>
               </div>
               <div class="item">
-                <div class="description">First Kitchen fees</div>
+                <div class="description">First Kitchen delivery fees</div>
                 <div class="price">
                   <div class="currency">EGP</div>
                   <div class="number">70</div>
@@ -361,10 +362,11 @@
               </div>
             </div>
           </div>
-          <div class="text-center col-md-12">
-            <div class="question">Want to add more dishes? </div>
-            <div class="link sp">Click here to go back to our menu</div>
-          </div>
+        </div>
+        <div class="text-center col-md-12">
+          <div class="question">Want to add more dishes? </div>
+          <div class="link sp">Click here to go back to our menu</div>
+        </div>
         </div>
       </div>
     </div>

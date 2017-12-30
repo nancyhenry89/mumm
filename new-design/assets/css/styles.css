@@ -112,6 +112,12 @@ header .my-account-list {
     border-bottom: 1px solid #dcdedf;
 }
 
+.cook-item.cart-item {
+    float: left;
+    height: 67px;
+    padding: 16px 0;
+}
+
 .cart-item>div {
     padding: 0;
 }
@@ -1247,6 +1253,11 @@ footer .social-item {
 .order-item {
     margin-bottom: 60px;
 }
+
+.order-summary .order-item {
+    float: left;
+    margin-bottom: 25px;
+}
 #past .dish-price {
     font-weight: bold;
     margin-top: 14px;
@@ -2206,6 +2217,14 @@ button#promo-code {
     margin-top: 20px;
 }
 
+.order-summary .payment-total {
+    float: left;
+    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+
 .payment-summary .item {}
 .payment-details .form-group {
     width: 100%;
@@ -2242,7 +2261,10 @@ button#promo-code {
 .order-summary {
     margin-top: 52px;
     border: 1px solid #e6e6e6;
-    padding: 10px 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 30px;
 }
 .row.client-info {
     margin-right: 20px;
@@ -2254,7 +2276,7 @@ button#promo-code {
 }
 
 .order-item .cook img {
-    width: 45px;
+    width: 41px;
     border: 2px solid #fbdf09;
     border-radius: 50%;
     float: left;
@@ -2262,14 +2284,17 @@ button#promo-code {
 
 .order-item .cook {
     background: #dedede;
-    height: 57px;
-    padding: 7px;
+    height: 46px;
+    padding: 3px 7px;
+    float: left;
+    width: 100%;
 }
 
 .order-item .cook-name {
     float: left;
     line-height: 45px;
     padding-left: 10px;
+    font-size: 14px;
 }
 
 .order-item .link {
@@ -2278,4 +2303,85 @@ button#promo-code {
     line-height: 40px;
     float: right;
     font-size: 12px;
+}
+.order-item .price-cook {
+    float: left;
+    width: 100%;
+}
+
+.order-item .price-cook .item {
+    font-size: 12px;
+    color: #242020;
+    float: left;
+    width: 100%;
+}
+
+.order-item .price-cook .item .description {
+    margin-top: 10px;
+}
+
+.order-item .price-cook .item .price {
+    font-size: 12px;
+    margin-top: 9px;
+}
+
+.order-summary .price-cook .description {
+    float: left;
+    width:50%
+}
+.order-summary .price-cook .price {
+    float: left;
+    width:50%;
+    text-align:right;
+}
+.order-summary .price-cook .price>div{
+    display:inline
+}
+
+.order-summary .remove-item {
+    background: #fae000;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.order-summary .remove-item a{
+    color:#000;
+    font-size:17px
+}
+.cook-item.cart-item .dish-quantity {
+    margin-top: 9px;
+}
+
+.cook-item.cart-item .dish-price {
+    color: #1aa9e2;
+}
+
+.order-summary .payment-total .description {
+    font-size: 12px;
+}
+
+.order-summary .payment-total .price {
+    font-size: 12px;
+}
+
+.order-summary .payment-total .price .number {
+    font-size: 14px;
+}
+
+.order-summary .grand-total {
+    float: left;
+    width: 100%;
+}
+
+.order-summary .grand-total .price .number {
+    font-size: 20px;
+}
+.grand-total .payment-total {
+    border: 0;
+}
+.cook-item.cart-item .dish-name {
+    padding: 0 3px;
 }
