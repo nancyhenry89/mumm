@@ -14,7 +14,8 @@
             </ul>
          </div>
          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Dished in
+            <label>Dishes in</label>
+            <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Maadi
             <i class="fa fa-angle-down" aria-hidden="true"></i>
             </button>
             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
@@ -25,9 +26,10 @@
             </ul>
          </div>
       </div>
-      <div class="col-md-4 menu-select">
+      <div class="col-md-4 menu-select sort">
          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Sort By
+             <label>Sort by</label>
+            <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Latest
             <i class="fa fa-angle-down" aria-hidden="true"></i>
             </button>
             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
@@ -53,7 +55,7 @@
    <div class="row personal-meals-content">
       <div class="col-md-12 cook-menu">
          <div class="row">
-            <div class="col-md-2 info">
+            <div class="col-md-2 info text-center">
                <div class="row">
                   <div class="col-md-12">
                      <div class="cook-img">
@@ -72,9 +74,9 @@
                         <i class="fa fa-star-half" aria-hidden="true"></i>
                      </div>
                   </div>
-                  <div class="col-md-12">
+                  <div class="col-md-12 rating-details">
                      <div class="rating-number">4.5</div>
-                     <div class="sep">|</div>
+                     <div class="sep"> |</div>
                      <div class="rating-count">
                         100 Users
                      </div>

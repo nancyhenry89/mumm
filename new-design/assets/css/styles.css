@@ -2634,3 +2634,82 @@ img.fav-img {
     opacity: .8;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
 }
+.personal-meals-filters {
+    margin-top: 43px;
+    margin-bottom: 40px;
+}
+
+.personal-meals-filters .dropdown {width: auto;font-family: 'Titillium Web', sans-serif;}
+
+.personal-meals-filters .dropdown .btn {
+    font-size: 24px;
+    color: #04a7e1;
+    text-decoration: underline;
+}
+.cook-menu .rating-stars {
+    width: 80px;
+    margin: auto;
+    float: none;
+}
+
+.cook-menu .rating-count {
+    float: left;
+}
+.rating-details {
+    width: 120px;
+    margin: auto;
+    float: none;
+}
+.menu-select.sort .dropdown {
+    width: 50%;
+}
+
+.menu-select.sort .dropdown .btn {
+    font-size: 19px;
+}
+
+.personal-meals-filters .dropdown label {
+    font-size: 24px;
+    margin-top: 6px;
+    float: left;
+}
+
+.personal-meals-filters .sort .dropdown label {
+    font-size: 20px;
+}
+
+.cook-menu .nav-tabs>li {
+    background: #04a7e1;
+    height: 45px;
+    margin-right: 1px;
+    width: 120px;
+    padding: 11px;
+}
+
+.cook-menu .nav-tabs>li>a {
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.cook-menu .nav-tabs>li.active>a,.cook-menu .nav-tabs>li.active>a:focus,.cook-menu .nav-tabs>li.active>a:hover {color: #231f1f;border: 0;}
+
+.cook-menu .nav-tabs>li.active {
+    background: #fff;
+    border: 2px solid #04a7e1;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.cook-menu .info img {
+    width: 55px;
+    margin-bottom: 20px;
+}
+
+.cook-menu .info {
+    margin-top: 50px;
+}
+.cook-menu .fav-img-cont {
+    padding: 0;
+}
