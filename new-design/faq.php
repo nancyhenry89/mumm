@@ -1,4 +1,4 @@
-<?php require_once('header.php'); ?>
+<?php require_once('personal-header.php'); ?>
     <div class="container faq">
       <div class="row">
         <div class="col-md-8">

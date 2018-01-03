@@ -17,7 +17,7 @@ header .login-btn button.btn.btn-primary {
     width: 120px;
 }
 header .logo img {
-    width: 158px;
+    width: 163px;
 }
 .full-width{
     width: 100%!important;
@@ -336,7 +336,7 @@ header {
     top: 17px;
 }
 header div.col-md-1 {
-    padding: 0 7px;
+    padding: 0 0px;
 }
 .copy-rights {
     color: #f4f7f8;
@@ -2712,4 +2712,48 @@ img.fav-img {
 }
 .cook-menu .fav-img-cont {
     padding: 0;
+}
+header .slogan {
+    float: left;
+    margin-left: 43px;
+    font-size: 18px;
+    margin-top: 11px;
+}
+
+header .logo a {
+    float: left;
+}
+
+img.flag-icon {
+    width: 25px;
+}
+.lang-label {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+header a.link {
+    color: #eed507;
+    margin: 16px 0;
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+    font-size: 16px;
+    margin-right: 32px;
+}
+.personal-header button.btn.btn-primary {
+    margin-right: 0;
+    width: 100px;
+    float: right;
+}
+
+.flag {
+    padding-top: 13px;
+    margin-bottom: 6px;
+}
+
+.lang {
+    border-right: 1px solid #e6e6e6;
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
