@@ -65,9 +65,14 @@ header .my-account-list {
     margin-left: -172px;
 }
 .cart .remove-item a {
-    color: #fae000;
-    font-size: 18px;
+    color: #000000;
+    font-size: 17px;
     display: inline-block;
+    background: #fae000;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
 }
 
 .cart-item .dish-price div {
@@ -89,7 +94,7 @@ header .my-account-list {
 .cart-item .remove-item {
     margin-top: 7px;
 }
-.cart-details {
+.order-summary.cart-details {
     width: 366px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
     border: solid 0.5px #fadf06;
@@ -101,6 +106,7 @@ header .my-account-list {
     margin-left: -284px;
     margin-top: 5px;
     padding: 10px;
+    text-align: left;
 }
 .cart-item {
     font-size: 12px;
@@ -291,9 +297,9 @@ header .account-info .balance span {
     font-weight: bold;
 }
 header .cart {
-    color: #fbdf09;
+    /* color: #fbdf09; */
     text-align: center;
-    font-size: 30px;
+    /* font-size: 30px; */
     width: 100%;
     height: 100%;
     /* padding: 20px; */
@@ -2303,6 +2309,8 @@ button#promo-code {
     line-height: 40px;
     float: right;
     font-size: 12px;
+    margin-right: 0;
+    margin-top: 0;
 }
 .order-item .price-cook {
     float: left;
@@ -2756,4 +2764,33 @@ header a.link {
     height: 100%;
     width: 100%;
     text-align: center;
+}
+.cart-info {
+    border: 1px solid #9dd9ed;
+    margin: 10px 0;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cart-info .cart-info-title {
+    font-size: 18px;
+    margin: 9px 0;
+}
+
+.cart-info .cart-info-detail {
+    color: #8a8787;
+    font-size: 16px;
+}
+
+header .cart .cart-info i {
+    color: #9ddaee;
+    font-size: 26px;
+    margin: 0;
+}
+.cart-checkout button.btn.btn-primary {
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    border-radius: 5px;
 }
