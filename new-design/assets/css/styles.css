@@ -2794,3 +2794,63 @@ header .cart .cart-info i {
     height: 50px;
     border-radius: 5px;
 }
+.checkout-header.confirmation-header {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.checkout-header.confirmation-header .checkout-steps {
+    margin-bottom: 150px;
+}
+
+.p-order-owners-pics img {
+    width: 75px;
+    height: 75px;
+    margin-left: -20px;
+    border: 2px solid #eed507;
+    border-radius: 50%;
+}
+.p-order-owners-names p {
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.gift b {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+
+.container.personal-confirmation {
+    width: 65%;
+}
+
+.gift {
+    width: 60%;
+    margin:  auto;
+    margin-top: 69px;
+    color: #03a9e1;
+    font-size: 22px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.invitation-code p {
+    margin-top: 22px;
+}
+
+.invitation-code .code {
+    width: 232px;
+    height: 68px;
+    margin: auto;
+    background: #f3f3f3;
+    margin-top: 17px;
+    border: 1px solid #c5c5c5;
+    border-radius: 2px;
+    font-size: 40px;
+    line-height: 70px;
+}
+.invitation-code {
+    margin-bottom: 20px;
+}
